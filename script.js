@@ -26,9 +26,9 @@ hide_button.addEventListener("click", event => {
 	}
 });
 
-const random_buton = document.getElementById("random");
-random_buton.addEventListener("click", event => {
-		const btn = buttons[Math.ceil(Math.random() * buttons.length)];
+const random_button = document.getElementById("random");
+random_button.addEventListener("click", event => {
+		const btn = buttons[Math.floor(Math.random() * buttons.length)];
 		display.style["background-color"] = getColor(btn.innerText);
 		display.innerText = btn.innerText;
 });
