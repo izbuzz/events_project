@@ -1,0 +1,38 @@
+h1 {
+    font-family: helvetica;
+    padding: 20px 0px;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#colorless {
+    background-color: white;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
